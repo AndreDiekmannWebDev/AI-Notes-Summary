@@ -4,6 +4,9 @@ Ein KI-gestütztes Tool zur schnellen und präzisen Zusammenfassung von Notizen,
 
 ---
 
+![AI Notes Summarizer Screenshot](screenshot.png)
+
+
 ## 🚀 Features
 
 - **Offline Fast/Precise Mode** – Wähle zwischen schnellem, kompaktem Modell oder genauerer, hochwertigerer Zusammenfassung.
@@ -50,5 +53,6 @@ MIT License – frei nutzbar, auch für eigene Projekte.
 
 Autor:
 Andre Diekmann
-Kontakt : roclindaddy68@googlemail.com
+Kontakt : rockindaddy68@googlemail.com
+
 
