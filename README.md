@@ -1,57 +1,54 @@
-# 🧠 AI Notes Summarizer (Offline)
+# 📝 AI Notes Summarizer
 
-![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
-![Transformers](https://img.shields.io/badge/HuggingFace-Transformers-yellow)
-![Mode](https://img.shields.io/badge/Modi-Schnell_/_Präzise-blue)
-
-Ein kostenloser, **offline** laufender Text-Summarizer mit **Streamlit** + **HuggingFace Transformers**.  
-Läuft komplett lokal – keine API-Keys nötig, keine Kosten.
+Ein KI-gestütztes Tool zur schnellen und präzisen Zusammenfassung von Notizen, Artikeln oder langen Texten – **offline** und damit unabhängig von API-Keys oder Kostenlimits.
 
 ---
 
 ## 🚀 Features
-- **2 Modi**:
-  - **Offline schnell** → kompakteres Modell, schnellere Ergebnisse
-  - **Offline präzise** → größeres Modell, bessere Qualität
-- **Chunking** → Lange Texte werden in kleinere Abschnitte geteilt, separat zusammengefasst und am Ende verdichtet.
-- **Cache** → Modelle werden nur einmal geladen, für schnelle Wiederholungen.
+
+- **Offline Fast/Precise Mode** – Wähle zwischen schnellem, kompaktem Modell oder genauerer, hochwertigerer Zusammenfassung.
+- **Chunking** – Lange Texte werden automatisch in verarbeitbare Abschnitte aufgeteilt.
+- **Caching** – Modelle werden nur einmal geladen, für deutlich bessere Performance.
+- **Streamlit UI** – Intuitive, browserbasierte Oberfläche.
+- **Kompatibel mit Hugging Face Transformers**.
 
 ---
 
-## 📸 Screenshot
-*(Optional – hier später Screenshot/GIF einfügen)*
+## 🛠️ Technologien
+
+- **Python 3.10+**
+- **Streamlit**
+- **Hugging Face Transformers**
+- **PyTorch**
 
 ---
 
-## 🛠 Installation & Start
+## 📦 Installation
 
 ```bash
-# 1. Virtuelle Umgebung erstellen
-python -m venv .venv
-# Windows:
-.venv\Scripts\activate
+# Repository klonen
+git clone https://github.com/AndreDiekmannWebDev/AI-Notes-Summary.git
+cd AI-Notes-Summary
 
-# 2. Abhängigkeiten installieren
+# Virtuelle Umgebung erstellen
+python -m venv .venv
+.venv\Scripts\activate  # Windows
+
+# Abhängigkeiten installieren
 pip install -r requirements.txt
 
-# 3. App starten
+Starten:
 streamlit run app.py
 
-.
-├── app.py               # Haupt-App
-├── requirements.txt     # Python-Abhängigkeiten
-├── README.md            # Projektdokumentation
-└── .gitignore           # Ignorierte Dateien
+Screenshot:
 
-Verwendete Technologien
 
-Streamlit – Web-App Framework für Python
 
-Transformers – NLP-Modelle
+Lizenz:
+MIT License – frei nutzbar, auch für eigene Projekte.
 
-PyTorch – Deep Learning Framework
 
-Idee
+Autor:
+Andre Diekmann
+Kontakt : roclindaddy68@googlemail.com
 
-Erstellt, um lokale Textzusammenfassungen ohne externe API-Kosten zu ermöglichen.
-Perfekt für schnelle Notizen, Meeting-Transkripte oder Dokumentenauswertungen.
